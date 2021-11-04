@@ -27,4 +27,5 @@ foo()
 foo()
 
 print('foo() was called {} times.'.format(foo.count))
-print(foo.__doc__)
+docstring = foo.__doc__
+print(docstring)
